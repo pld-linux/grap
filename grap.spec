@@ -7,7 +7,7 @@ License:	BSD
 Group:		Applications/Publishing
 Source0:	http://www.lunabase.org/~faber/Vault/software/grap/%{name}-%{version}.tar.gz
 # Source0-md5:	f84c99b1746a963328f38d050529b778
-Patch0:		%{name}-debian.patch
+#Patch0:		%{name}-debian.patch
 URL:		http://www.lunabase.org/~faber/Vault/software/grap/
 BuildRequires:	autoconf
 BuildRequires:	bison
@@ -34,7 +34,7 @@ groff.
 
 %prep
 %setup -q
-%patch0 -p1
+#%%patch0 -p1
 
 %build
 %{__autoconf}
