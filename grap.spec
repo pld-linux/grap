@@ -1,12 +1,12 @@
 Summary:	A language for typesetting graphs
 Summary(pl):	Jêzyk do sk³adu grafów
 Name:		grap
-Version:	1.30
+Version:	1.32
 Release:	1
 License:	BSD
 Group:		Applications/Publishing
 Source0:	http://www.lunabase.org/~faber/Vault/software/grap/%{name}-%{version}.tar.gz
-# Source0-md5:	f84c99b1746a963328f38d050529b778
+# Source0-md5:	4ab356f3bcafaedbe4833113122bcf57
 #Patch0:		%{name}-debian.patch
 URL:		http://www.lunabase.org/~faber/Vault/software/grap/
 BuildRequires:	autoconf
