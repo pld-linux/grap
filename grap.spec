@@ -47,9 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	BINDIR=$RPM_BUILD_ROOT%{_bindir} \
-	DEFINESDIR=$RPM_BUILD_ROOT%{_datadir}/misc \
+	DEFINESDIR=$RPM_BUILD_ROOT%{_datadir}/grap \
 	DOCDIR=$RPM_BUILD_ROOT%{_docdir}/%{name}-%{version} \
-	MANDIR=RPM_BUILD_ROOT%{_mandir}/man1 \
+	MANDIR=$RPM_BUILD_ROOT%{_mandir}/man1 \
 	EXAMPLEDIR=RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
@@ -59,4 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGES README
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/misc/*
+%{_datadir}/grap
+%{_mandir}/man1/grap*
