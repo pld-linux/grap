@@ -9,6 +9,7 @@ Source0:	http://www.lunabase.org/~faber/Vault/software/grap/%{name}-%{version}.t
 # Source0-md5:	f84c99b1746a963328f38d050529b778
 Patch0:		%{name}-debian.patch
 URL:		http://www.lunabase.org/~faber/Vault/software/grap/
+BuildRequires:	autoconf
 BuildRequires:	flex
 BuildRequires:	bison
 BuildRequires:	libstdc++-devel
@@ -44,12 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post
-[ ! -x /usr/sbin/fix-info-dir ] || /usr/sbin/fix-info-dir -c %{_infodir} >/dev/null 2>&1
-
-%postun
-[ ! -x /usr/sbin/fix-info-dir ] || /usr/sbin/fix-info-dir -c %{_infodir} >/dev/null 2>&1
 
 %files
 %defattr(644,root,root,755)
