@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 	DEFINESDIR=$RPM_BUILD_ROOT%{_datadir}/grap \
 	DOCDIR=$RPM_BUILD_ROOT%{_docdir}/%{name}-%{version} \
 	MANDIR=$RPM_BUILD_ROOT%{_mandir}/man1 \
-	EXAMPLEDIR=RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+	EXAMPLEDIR=$RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -59,3 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/grap
 %{_mandir}/man1/grap*
+%{_examplesdir}/%{name}-%{version}
