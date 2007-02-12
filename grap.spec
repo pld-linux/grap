@@ -1,5 +1,5 @@
 Summary:	A language for typesetting graphs
-Summary(pl):	Jêzyk do sk³adu grafów
+Summary(pl.UTF-8):   JÄ™zyk do skÅ‚adu grafÃ³w
 Name:		grap
 Version:	1.39
 Release:	1
@@ -22,13 +22,13 @@ typeset documents. It is implemented as a preprocessor to Kernighan's
 pic language for describing languages, so any system that can use pic
 can use grap. For sure, TeX and groff can use it.
 
-%description -l pl
-Grap to jêzyk do sk³adu grafów zdefiniowany i po raz pierwszy
+%description -l pl.UTF-8
+Grap to jÄ™zyk do skÅ‚adu grafÃ³w zdefiniowany i po raz pierwszy
 zaimplementowany przez Briana Kernighana i Jona Bentleya w Bell Labs.
-Jest to jêzyk wyra¿eñ do opisu grafów i w³±czania ich do sk³adanych
-dokumentów. Jest zaimplementowany jako preprocesor dla jêzyka pic
-Kernighana s³u¿±cego do opisu jêzyków, wiêc dowolny system u¿ywaj±cy
-jêzyka pic mo¿e u¿ywaæ jêzyka grap. Na pewno mog± go u¿ywaæ TeX i
+Jest to jÄ™zyk wyraÅ¼eÅ„ do opisu grafÃ³w i wÅ‚Ä…czania ich do skÅ‚adanych
+dokumentÃ³w. Jest zaimplementowany jako preprocesor dla jÄ™zyka pic
+Kernighana sÅ‚uÅ¼Ä…cego do opisu jÄ™zykÃ³w, wiÄ™c dowolny system uÅ¼ywajÄ…cy
+jÄ™zyka pic moÅ¼e uÅ¼ywaÄ‡ jÄ™zyka grap. Na pewno mogÄ… go uÅ¼ywaÄ‡ TeX i
 groff.
 
 %prep
