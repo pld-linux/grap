@@ -1,5 +1,5 @@
 Summary:	A language for typesetting graphs
-Summary(pl.UTF-8):   Język do składu grafów
+Summary(pl.UTF-8):	Język do składu grafów
 Name:		grap
 Version:	1.39
 Release:	1
