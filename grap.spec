@@ -1,12 +1,12 @@
 Summary:	A language for typesetting graphs
 Summary(pl.UTF-8):	Język do składu grafów
 Name:		grap
-Version:	1.39
+Version:	1.41
 Release:	1
 License:	BSD
 Group:		Applications/Publishing
 Source0:	http://www.lunabase.org/~faber/Vault/software/grap/%{name}-%{version}.tar.gz
-# Source0-md5:	af9ad4aec173b15ec749b0d1de416935
+# Source0-md5:	e5c105a50669016f66bcc1517783ef67
 URL:		http://www.lunabase.org/~faber/Vault/software/grap/
 BuildRequires:	autoconf
 BuildRequires:	bison
